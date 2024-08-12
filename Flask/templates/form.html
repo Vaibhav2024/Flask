@@ -6,8 +6,8 @@
     </head>
     <body>
         <h1>Submit A Form</h1>
-        <form method="post">
-            <label for="name">Name:</label>
+        <form action="/submit" method="post">   <!--redirects to /submit route-->
+            <label for="name">Name:</label>     <!--The action attribute specifies where to send the form-data when a form is submitted.-->
             <input type="text" id="name" name="name">
             <input type="submit" value="Submit">
         </form>
